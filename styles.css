@@ -15,4 +15,43 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: -100px;
   }
+
+/* Adjust the size and style of the search bar */
+.search-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:-280px;
+  }
+  
+  .search-input {
+    width: 300px; /* Adjust the width as needed */
+    height: 15px; /* Adjust the height as needed */
+    font-size: 16px; /* Adjust the font size as needed */
+    padding: 10px; /* Adjust the padding as needed */
+    margin-right: 1vw;
+    border: 1px solid #ccc; /* Optional: Add a border for styling */
+    border-radius: 20px; /* Optional: Add rounded corners */
+  }
+  
+  .search-button {
+    height: 35px; /* Match the height of the input field */
+    padding: 10px 15px; /* Adjust the padding as needed */
+    background-color: #007bff; /* Example button background color */
+    color: #fff; /* Example button text color */
+    border: none;
+    border-radius: 10px; /* Optional: Add rounded corners */
+    cursor: pointer;
+  }
+  
+  /* Optional: Add styles for hover and focus states */
+  .search-input:hover, .search-input:focus {
+    border: 1px solid #007bff;
+  }
+  
+  .search-button:hover {
+    background-color: #0056b3; /* Example button background color on hover */
+  }
+  
