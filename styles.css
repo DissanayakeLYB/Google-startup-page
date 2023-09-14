@@ -8,11 +8,9 @@ html{
 
 .main-google {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 400; 
-    font-display: bold;
-    font-size: 100px; 
+    font-weight:600;
+    font-size: 90px; 
     color: rgb(255, 255, 255); 
-    letter-spacing: -5px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -77,3 +75,30 @@ html{
   .feeling-lucky-button:hover {
     border: 1px solid rgb(255, 255, 255, 0.3);
   }
+
+
+.navigation{
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content:right;
+  margin-bottom: 1rem;
+}
+
+nav ul.navigation li {
+  margin: 0 0.2rem;
+}
+
+nav ul.navigation li a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  text-decoration: none;
+  transition: 0.5s;
+  position:relative;
+  padding: 10px;
+}
+
+nav ul.navigation li a:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
