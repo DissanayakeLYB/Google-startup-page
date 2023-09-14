@@ -3,7 +3,7 @@ html{
   padding: 0;
   height:100vh;
   width: 100vw;
-  background-color: #2c2c2c;
+  background-color: #222222;
 }
 
 .main-google {
@@ -22,7 +22,7 @@ html{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: -50px;
+  margin-top: -60px;
   }
   
   .search-input {
@@ -32,20 +32,20 @@ html{
     padding: 10px; /* Adjust the padding as needed */
     border: 1px solid rgb(255, 255, 255, 0.3); /* Optional: Add a border for styling */
     border-radius: 25px; /* Optional: Add rounded corners */
-    background-color: #2c2c2c ;
+    background-color: #222222 ;
 
   }
   
   .search-button {
     height: 35px; /* Match the height of the input field */
     padding: 10px 15px; /* Adjust the padding as needed */
-    background-color: rgb(255, 255, 255,0.1); /* Example button background color */
+    background-color: rgb(255, 255, 255,0.08); /* Example button background color */
     color: #ffffff; /* Example button text color */
     border: none;
     border-radius: 4px; /* Optional: Add rounded corners */
     cursor: pointer;
     margin-top: 90px;
-    margin-right: 15px;
+    margin-right: 5px;
     justify-items: center;
   }
   
@@ -62,7 +62,7 @@ html{
   .feeling-lucky-button{
     height: 35px; /* Match the height of the input field */
     padding: 10px 15px; /* Adjust the padding as needed */
-    background-color: rgb(255, 255, 255,0.1); /* Example button background color */
+    background-color: rgb(255, 255, 255,0.08); /* Example button background color */
     color: #fff; /* Example button text color */
     border: none;
     border-radius: 4px; /* Optional: Add rounded corners */
@@ -83,6 +83,7 @@ html{
   display: flex;
   justify-content:right;
   margin-bottom: 1rem;
+  font-size: 15px;
 }
 
 nav ul.navigation li {
@@ -100,16 +101,116 @@ nav ul.navigation li a {
 
 nav ul.navigation li a:hover {
   text-decoration: underline;
-  text-underline-offset: 5px;
 }
 
 p.languages{
   color: #ffffff;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+  margin-top: 35px;
+  font-size: small;
+  letter-spacing: 0.6px;
 }
 
-.link-langs{
-  color:rgb(30, 94, 116);
-  
+.links-langs{
+  color:rgb(81, 140, 250);
+  text-decoration: none;
+  letter-spacing: 0.4px;
 }
+
+.links-langs:hover{
+  text-decoration:underline;
+}
+
+
+.footer-left{
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content:left;
+  margin-bottom: 1rem;
+  font-size: 15px;
+}
+
+nav ul.footer-left li {
+  margin: 0 0.2rem;
+}
+
+nav ul.footer-left li a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #979797;
+  text-decoration: none;
+  transition: 0.5s;
+  position:relative;
+  padding: 10px;
+}
+
+nav ul.footer-left li a:hover {
+  text-decoration: underline;
+}
+
+
+
+.footer-right{
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: right;
+  margin-bottom: 1rem;
+  font-size: 15px;
+}
+
+nav ul.footer-right li {
+  margin: 0 0.2rem;
+}
+
+nav ul.footer-right li a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #979797;
+  text-decoration: none;
+  transition: 0.5s;
+  position:relative;
+  padding: 10px;
+}
+
+nav ul.footer-right li a:hover {
+  text-decoration: underline;
+}
+
+
+
+.left-footer{
+  margin-top: 4px;
+  margin-right: -7px;
+  margin-left: -7px;
+  padding: 3px 0px 3px 0px;
+  position:relative;
+  background-color: rgb(0, 0, 0, 0.7);
+}
+
+.right-footer{
+  position:relative;
+  margin-top: -50px;
+}
+
+
+
+.country-footer{
+  list-style: none;
+  display: flex;
+  justify-content: left;
+  margin-bottom: 1rem;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #979797;
+  text-decoration: none;
+  transition: 0.5s;
+  position:relative;
+  padding: 0 5px 0 5px;
+  background-color: rgb(0, 0, 0, 0.7);
+  margin: 0 -6px 0 -5px;
+  margin-top: 1px;
+  margin-right: -7px;
+  margin-left: -7px;
+}
+
