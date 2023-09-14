@@ -9,12 +9,12 @@ html{
 .main-google {
     font-family: 'Montserrat', sans-serif;
     font-weight:600;
-    font-size: 90px; 
+    font-size: 100px; 
     color: rgb(255, 255, 255); 
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10vh;
+    margin-top: 3vh;
   }
 
 /* Adjust the size and style of the search bar */
@@ -22,16 +22,16 @@ html{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: -75px;
+  margin-top: -50px;
   }
   
   .search-input {
-    width: 500px; /* Adjust the width as needed */
-    height: 15px; /* Adjust the height as needed */
+    width: 600px; /* Adjust the width as needed */
+    height: 25px; /* Adjust the height as needed */
     font-size: 16px; /* Adjust the font size as needed */
     padding: 10px; /* Adjust the padding as needed */
     border: 1px solid rgb(255, 255, 255, 0.3); /* Optional: Add a border for styling */
-    border-radius: 20px; /* Optional: Add rounded corners */
+    border-radius: 25px; /* Optional: Add rounded corners */
     background-color: #2c2c2c ;
 
   }
@@ -101,4 +101,15 @@ nav ul.navigation li a {
 nav ul.navigation li a:hover {
   text-decoration: underline;
   text-underline-offset: 5px;
+}
+
+p.languages{
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.link-langs{
+  color:rgb(30, 94, 116);
+  
 }
