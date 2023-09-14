@@ -1,3 +1,10 @@
+html{
+  margin: 0;
+  padding: 0;
+  height:100vh;
+  width: 100vw;
+}
+
 .main-google {
     font-family: 'Montserrat', sans-serif;
     font-weight: 550; 
@@ -7,7 +14,7 @@
     display:flex;
     justify-content: center;
     align-items: center;
-    margin-top: 210px;
+    margin-top: 10vh;
   }
 
 /* Adjust the size and style of the search bar */
@@ -37,15 +44,16 @@
     border-radius: 4px; /* Optional: Add rounded corners */
     cursor: pointer;
     margin-top: 90px;
+    margin-right: 5px;
     justify-items: center;
   }
   
   /* Optional: Add styles for hover and focus states */
-  .search-input:hover, .search-input:focus, .feeling-lucky-button {
+  .search-input:hover, .search-input:focus  {
     border: 1px solid #007bff;
   }
   
-  .search-button:hover, .feeling-lucky-button {
+  .search-button:hover {
     background-color: #0056b3; /* Example button background color on hover */
   }
   
@@ -58,5 +66,14 @@
     border-radius: 4px; /* Optional: Add rounded corners */
     cursor: pointer;
     margin-top: 90px;
+    margin-left: 5px;
     justify-items: center;
+  }
+
+  .feeling-lucky-button:hover, .feeling-lucky-button:focus  {
+    border: 1px solid #007bff;
+  }
+  
+  .feeling-lucky-button:hover {
+    background-color: #0056b3; /* Example button background color on hover */
   }
