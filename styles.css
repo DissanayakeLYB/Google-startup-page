@@ -210,7 +210,15 @@ nav ul.footer-right li a:hover {
 #audio-search-button{
   background-color: #222222;
   border: none;
-  padding:1px;
+  padding:2px;
+  margin: 2px;
+}
+
+#audio-search-button-image{
+  width: 18px;
+  height: 25px;
+  margin: 2px;
+  margin-left: -100px;
 }
 
 #audio-search-button:hover{
@@ -220,9 +228,15 @@ nav ul.footer-right li a:hover {
 #image-search-button{
   background-color: #222222;
   border: none;
-  padding: 1px;
+}
+
+#image-search-button-image{
+  width: 30px;
+  height: 30px;
+  margin: 2px;
 }
 
 #image-search-button:hover{
   cursor: pointer;
 }
+
