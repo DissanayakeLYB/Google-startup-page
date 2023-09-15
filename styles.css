@@ -27,7 +27,7 @@ html{
   
   .search-input {
     width: 600px; /* Adjust the width as needed */
-    height: 25px; /* Adjust the height as needed */
+    height: 30px; /* Adjust the height as needed */
     font-size: 16px; /* Adjust the font size as needed */
     padding: 10px; /* Adjust the padding as needed */
     border: 1px solid rgb(255, 255, 255, 0.3); /* Optional: Add a border for styling */
@@ -52,7 +52,7 @@ html{
   /* Optional: Add styles for hover and focus states */
   .search-input:hover, .search-input:focus  {
     border-color: #2c2c2c ;
-    background-color: rgb(255, 255, 255, 0.3);
+    background-color: rgb(255, 255, 255, 0.1);
   }
   
   .search-button:hover, .search-button:focus {
@@ -177,7 +177,7 @@ nav ul.footer-right li a:hover {
 
 
 .left-footer{
-  margin-top: 4px;
+  margin-top: px;
   margin-right: -7px;
   margin-left: -7px;
   padding: 3px 0px 3px 0px;
@@ -187,7 +187,7 @@ nav ul.footer-right li a:hover {
 
 .right-footer{
   position:relative;
-  margin-top: -53px;
+  margin-top: -103px;
 }
 
 .country-footer{
@@ -212,14 +212,15 @@ nav ul.footer-right li a:hover {
   border: none;
   padding:2px;
   margin: 2px;
+  margin-top: 10px;
 }
 
 #audio-search-button-image{
-  width: 18px;
+  width: 16px;
   height: 25px;
   margin: 5px;
-  margin-top: 0px;
-  margin-left: -140px;
+  margin-top: -20px;
+  margin-left: -155px;
 }
 
 #audio-search-button:hover{
@@ -236,7 +237,7 @@ nav ul.footer-right li a:hover {
   height: 30px;
   margin: 5px;
   margin-top: 12px;
-  margin-left: -100px;
+  margin-left: -105px;
 }
 
 #image-search-button:hover{
