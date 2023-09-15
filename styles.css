@@ -217,8 +217,9 @@ nav ul.footer-right li a:hover {
 #audio-search-button-image{
   width: 18px;
   height: 25px;
-  margin: 2px;
-  margin-left: -100px;
+  margin: 5px;
+  margin-top: 0px;
+  margin-left: -140px;
 }
 
 #audio-search-button:hover{
@@ -233,7 +234,9 @@ nav ul.footer-right li a:hover {
 #image-search-button-image{
   width: 30px;
   height: 30px;
-  margin: 2px;
+  margin: 5px;
+  margin-top: 12px;
+  margin-left: -100px;
 }
 
 #image-search-button:hover{
