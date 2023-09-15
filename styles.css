@@ -94,7 +94,6 @@ nav ul.navigation li a {
   font-family: Arial, Helvetica, sans-serif;
   color: #ffffff;
   text-decoration: none;
-  transition: 0.5s;
   position:relative;
   padding: 10px;
 }
@@ -140,7 +139,6 @@ nav ul.footer-left li a {
   font-family: Arial, Helvetica, sans-serif;
   color: #979797;
   text-decoration: none;
-  transition: 0.5s;
   position:relative;
   padding: 10px;
 }
@@ -168,7 +166,6 @@ nav ul.footer-right li a {
   font-family: Arial, Helvetica, sans-serif;
   color: #979797;
   text-decoration: none;
-  transition: 0.5s;
   position:relative;
   padding: 10px;
 }
@@ -193,8 +190,6 @@ nav ul.footer-right li a:hover {
   margin-top: -53px;
 }
 
-
-
 .country-footer{
   list-style: none;
   display: flex;
@@ -203,7 +198,6 @@ nav ul.footer-right li a:hover {
   font-family: Arial, Helvetica, sans-serif;
   color: #979797;
   text-decoration: none;
-  transition: 0.5s;
   position:relative;
   padding: 0 5px 5px 5px;
   background-color: rgb(0, 0, 0, 0.7);
@@ -213,3 +207,22 @@ nav ul.footer-right li a:hover {
   margin-bottom: -2px;
 }
 
+#audio-search-button{
+  background-color: #222222;
+  border: none;
+  padding:1px;
+}
+
+#audio-search-button:hover{
+  cursor: pointer;
+}
+
+#image-search-button{
+  background-color: #222222;
+  border: none;
+  padding: 1px;
+}
+
+#image-search-button:hover{
+  cursor: pointer;
+}
