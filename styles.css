@@ -31,7 +31,7 @@ html{
     padding: 10px; /* Adjust the padding as needed */
     border: 1px solid rgb(255, 255, 255, 0.3); /* Optional: Add a border for styling */
     border-radius: 25px; /* Optional: Add rounded corners */
-    background-color: #222222 ;
+    background-color: #1c1c1d ;
     margin-top: 10px;
     margin-bottom: 20px;
     color: #ffffff;
@@ -84,7 +84,6 @@ html{
   justify-content:right;
   margin-bottom: 0vh;
   font-size: 15px;
-
 }
 
 #chad{
@@ -99,11 +98,10 @@ html{
 
 #dots{
   position:absolute;
-  height:40px;
-  width: 35px;
+  height:30px;
+  width: 30px;
   image-resolution: auto;
-  border-radius: 100px;
-  top: 25px;
+  top: 29px;
   right:85px;
 }
 
@@ -252,7 +250,7 @@ nav ul.footer-right li a:hover {
 }
 
 #audio-search-button{
-  background-color: #222222;
+  background-color: #1c1c1d;
   border: none;
   padding:2px;
   margin: 2px;
@@ -272,7 +270,7 @@ nav ul.footer-right li a:hover {
 }
 
 #image-search-button{
-  background-color: #222222;
+  background-color: #1c1c1d;
   border: none;
 }
 
@@ -288,8 +286,6 @@ nav ul.footer-right li a:hover {
   cursor: pointer;
 }
 
-
-
 #hand-lens{
   margin: 0;
   padding: 15px 1px 15px 30px;
@@ -297,5 +293,5 @@ nav ul.footer-right li a:hover {
   width: 22px;
   height: 22px;
   left:437px;
-  top: 286px;
+  top: 283px;
 }
