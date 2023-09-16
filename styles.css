@@ -189,7 +189,7 @@ nav ul.footer-right li a:hover {
 .right-footer{
   height: 50px; /* Set the height of your footer */
   background-color: #0e0e0e; /* Set the background color */
-  text-align: right; /* Center-align the content inside the footer */
+  text-align: right0; /* Center-align the content inside the footer */
   position: absolute;
   padding-top: 1px;
   margin-left: -7px;
