@@ -84,14 +84,32 @@ html{
   justify-content:right;
   margin-bottom: 0vh;
   font-size: 15px;
+
 }
 
 #chad{
-  
+  position:absolute;
+  height:40px;
+  width: 40px;
+  image-resolution: auto;
+  border-radius: 100px;
+  top: 25px;
+  right:25px;
+}
+
+#dots{
+  position:absolute;
+  height:40px;
+  width: 35px;
+  image-resolution: auto;
+  border-radius: 100px;
+  top: 25px;
+  right:85px;
 }
 
 nav ul.navigation li {
   margin: 0 0 0 0;
+
 }
 
 nav ul.navigation li a {
@@ -100,6 +118,8 @@ nav ul.navigation li a {
   text-decoration: none;
   position:relative;
   padding: 10px;
+  top:20px;
+  right:200px;
 }
 
 nav ul.navigation li a:hover {
