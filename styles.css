@@ -7,14 +7,13 @@ html{
 }
 
 .main-google {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Product Sans', sans-serif;
     font-weight:600;
     font-size: 100px; 
     color: rgb(255, 255, 255); 
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 3vh;
   }
 
 /* Adjust the size and style of the search bar */
@@ -22,7 +21,7 @@ html{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: -60px;
+  margin-top: -80px;
   }
   
   .search-input {
@@ -33,7 +32,9 @@ html{
     border: 1px solid rgb(255, 255, 255, 0.3); /* Optional: Add a border for styling */
     border-radius: 25px; /* Optional: Add rounded corners */
     background-color: #222222 ;
-
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #ffffff;
   }
   
   .search-button {
@@ -51,10 +52,9 @@ html{
   
   /* Optional: Add styles for hover and focus states */
   .search-input:hover, .search-input:focus  {
-    border-color: #2c2c2c ;
     background-color: rgb(255, 255, 255, 0.1);
   }
-  
+
   .search-button:hover, .search-button:focus {
     border: 1px solid rgb(255, 255, 255, 0.3);
   }
@@ -82,12 +82,12 @@ html{
   padding: 0;
   display: flex;
   justify-content:right;
-  margin-bottom: 1rem;
+  margin-bottom: 0vh;
   font-size: 15px;
 }
 
 nav ul.navigation li {
-  margin: 0 0.2rem;
+  margin: 0 0 0 0;
 }
 
 nav ul.navigation li a {
@@ -220,7 +220,7 @@ nav ul.footer-right li a:hover {
   position:absolute;
   padding: 6px 93.8vw 5px 2vw;
   background-color: rgb(0, 0, 0, 0.7);
-  margin-top: 132px;
+  margin-top: 170px;
   margin-right: -7px;
   margin-left: -7px;
   margin-bottom: 2px;
@@ -232,15 +232,15 @@ nav ul.footer-right li a:hover {
   border: none;
   padding:2px;
   margin: 2px;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 #audio-search-button-image{
   width: 16px;
   height: 25px;
-  margin: 5px;
-  margin-top: -20px;
-  margin-left: -155px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  margin-left: -160px;
 }
 
 #audio-search-button:hover{
@@ -256,7 +256,7 @@ nav ul.footer-right li a:hover {
   width: 30px;
   height: 30px;
   margin: 5px;
-  margin-top: 12px;
+  margin-bottom: 9px;
   margin-left: -105px;
 }
 
