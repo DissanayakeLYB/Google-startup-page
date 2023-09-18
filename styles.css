@@ -22,11 +22,11 @@ html{
   justify-content: center;
   align-items: center;
   margin-top: -80px;
-  margin-left:50px;
+  margin-left:30px;
   }
   
   .search-input {
-    width: 600px; /* Adjust the width as needed */
+    width: 550px; /* Adjust the width as needed */
     height: 30px; /* Adjust the height as needed */
     font-size: 16px; /* Adjust the font size as needed */
     padding: 10px; /* Adjust the padding as needed */
@@ -36,7 +36,7 @@ html{
     margin-top: 10px;
     margin-bottom: 20px;
     color: #ffffff;
-    padding-left: 50 px;
+    padding-left: 55px;
   }
   
   .search-button {
@@ -294,6 +294,6 @@ nav ul.footer-right li a:hover {
   position: fixed;
   width: 22px;
   height: 22px;
-  left:437px;
+  left:450px;
   top: 283px;
 }
