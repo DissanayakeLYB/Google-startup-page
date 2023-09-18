@@ -16,6 +16,11 @@ html{
     align-items: center;
   }
 
+  .google{
+    text-decoration: none;
+    color: #fff;
+  }
+
 /* Adjust the size and style of the search bar */
 .search-form {
   display: flex;
@@ -96,15 +101,17 @@ html{
   border-radius: 100px;
   top: 25px;
   right:25px;
+  cursor: pointer;
 }
 
 #dots{
   position:absolute;
-  height:30px;
-  width: 30px;
+  height:25px;
+  width: 25px;
   image-resolution: auto;
-  top: 29px;
-  right:85px;
+  top: 32px;
+  right:90px;
+  cursor: pointer;
 }
 
 nav ul.navigation li {
